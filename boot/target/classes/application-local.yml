@@ -1,0 +1,32 @@
+spring:
+  cloud:
+    gcp:
+      sql:
+        enabled: false
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+  flyway:
+    enabled: true
+    locations: classpath:migration/versions
+    baseline-on-migrate: true
+    baseline-version: 0
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ADM_VACANCY
+    username: sa
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+
+
+  docker:
+    compose:
+      enabled: false
+fwkcna:
+
+  jpa:
+    data-migration:
+      disabled: false
+
+
