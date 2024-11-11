@@ -1,0 +1,12 @@
+com/mercadona/pedper/main/domain/Example.class
+com/mercadona/pedper/main/domain/VacancyCandidate$VacancyCandidateBuilder.class
+com/mercadona/pedper/main/application/ports/driving/VacancyServicePort.class
+com/mercadona/pedper/main/domain/Vacancy.class
+com/mercadona/pedper/main/domain/Employee.class
+com/mercadona/pedper/main/domain/Employee$EmployeeBuilder.class
+com/mercadona/pedper/main/domain/Vacancy$VacancyBuilder.class
+com/mercadona/pedper/main/domain/IdentificationTypesEnum.class
+com/mercadona/pedper/main/application/ports/driven/VacancyRepositoryPort.class
+com/mercadona/pedper/main/application/services/VacancyServiceUseCase.class
+com/mercadona/pedper/main/domain/Example$ExampleBuilder.class
+com/mercadona/pedper/main/domain/VacancyCandidate.class
